@@ -34,7 +34,7 @@ monthly returns data on 16 assets over the five year period January 1983 through
 S+ FinMetric "berndt.dat".
 }
 \references{
-S+ FinMetric "berndt.dat"
+S+ FinMetric "berndt.dat".
 }
 \examples{
 data(berndt.dat)
