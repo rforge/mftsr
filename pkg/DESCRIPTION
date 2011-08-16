@@ -1,0 +1,10 @@
+Package: MFTSR
+Type: Package
+Title: Modelling Financial Time Series with R 
+Version: 1.0
+Date: 2011-08-13
+Author: Eric Zivot
+Maintainer: Eric Zivot <ezviot@uw.edu>
+Description: A R package that comes with the book "Modelling Financial Time Series with R". 
+License: GPL-2
+LazyLoad: yes
