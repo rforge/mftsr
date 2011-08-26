@@ -1,0 +1,42 @@
+\name{pricing.ts}
+\alias{pricing.ts}
+\docType{data}
+\title{
+monthly data over the period February 1959 through November
+1993.13 Ten size-based portfolios from the Center for Research in Security Prices (CRSP) data base.
+}
+\description{
+monthly data over the period February 1959 through November
+1993.13 Ten size-based portfolios from the Center for Research in Security Prices (CRSP) data base. That is, portfolio 1 contains the monthly returns on the smallest 10 percent of firms (by market
+capitalization) listed on the New York Stock Exchange, and portfolio 10 contains the returns on the largest 10 percent of firms. The risk-free asset is the monthly return on 3-month U.S. T-bills, and real consumption is measured by total U.S. personal consumption expenditures on nondurables and services.
+}
+\usage{data(pricing.ts)}
+\format{
+  A data frame with 418 observations on the following 13 variables.
+  \describe{
+    \item{\code{RowNames}}{a factor with levels \code{Apr 1959} \code{Apr 1960} \code{Apr 1961} \code{Apr 1962} \code{Apr 1963} \code{Apr 1964} \code{Apr 1965} \code{Apr 1966} \code{Apr 1967} \code{Apr 1968} \code{Apr 1969} \code{Apr 1970} \code{Apr 1971} \code{Apr 1972} \code{Apr 1973} \code{Apr 1974} \code{Apr 1975} \code{Apr 1976} \code{Apr 1977} \code{Apr 1978} \code{Apr 1979} \code{Apr 1980} \code{Apr 1981} \code{Apr 1982} \code{Apr 1983} \code{Apr 1984} \code{Apr 1985} \code{Apr 1986} \code{Apr 1987} \code{Apr 1988} \code{Apr 1989} \code{Apr 1990} \code{Apr 1991} \code{Apr 1992} \code{Apr 1993} \code{Aug 1959} \code{Aug 1960} \code{Aug 1961} \code{Aug 1962} \code{Aug 1963} \code{Aug 1964} \code{Aug 1965} \code{Aug 1966} \code{Aug 1967} \code{Aug 1968} \code{Aug 1969} \code{Aug 1970} \code{Aug 1971} \code{Aug 1972} \code{Aug 1973} \code{Aug 1974} \code{Aug 1975} \code{Aug 1976} \code{Aug 1977} \code{Aug 1978} \code{Aug 1979} \code{Aug 1980} \code{Aug 1981} \code{Aug 1982} \code{Aug 1983} \code{Aug 1984} \code{Aug 1985} \code{Aug 1986} \code{Aug 1987} \code{Aug 1988} \code{Aug 1989} \code{Aug 1990} \code{Aug 1991} \code{Aug 1992} \code{Aug 1993} \code{Dec 1959} \code{Dec 1960} \code{Dec 1961} \code{Dec 1962} \code{Dec 1963} \code{Dec 1964} \code{Dec 1965} \code{Dec 1966} \code{Dec 1967} \code{Dec 1968} \code{Dec 1969} \code{Dec 1970} \code{Dec 1971} \code{Dec 1972} \code{Dec 1973} \code{Dec 1974} \code{Dec 1975} \code{Dec 1976} \code{Dec 1977} \code{Dec 1978} \code{Dec 1979} \code{Dec 1980} \code{Dec 1981} \code{Dec 1982} \code{Dec 1983} \code{Dec 1984} \code{Dec 1985} \code{Dec 1986} \code{Dec 1987} \code{Dec 1988} \code{Dec 1989} \code{Dec 1990} \code{Dec 1991} \code{Dec 1992} \code{Feb 1959} \code{Feb 1960} \code{Feb 1961} \code{Feb 1962} \code{Feb 1963} \code{Feb 1964} \code{Feb 1965} \code{Feb 1966} \code{Feb 1967} \code{Feb 1968} \code{Feb 1969} \code{Feb 1970} \code{Feb 1971} \code{Feb 1972} \code{Feb 1973} \code{Feb 1974} \code{Feb 1975} \code{Feb 1976} \code{Feb 1977} \code{Feb 1978} \code{Feb 1979} \code{Feb 1980} \code{Feb 1981} \code{Feb 1982} \code{Feb 1983} \code{Feb 1984} \code{Feb 1985} \code{Feb 1986} \code{Feb 1987} \code{Feb 1988} \code{Feb 1989} \code{Feb 1990} \code{Feb 1991} \code{Feb 1992} \code{Feb 1993} \code{Jan 1960} \code{Jan 1961} \code{Jan 1962} \code{Jan 1963} \code{Jan 1964} \code{Jan 1965} \code{Jan 1966} \code{Jan 1967} \code{Jan 1968} \code{Jan 1969} \code{Jan 1970} \code{Jan 1971} \code{Jan 1972} \code{Jan 1973} \code{Jan 1974} \code{Jan 1975} \code{Jan 1976} \code{Jan 1977} \code{Jan 1978} \code{Jan 1979} \code{Jan 1980} \code{Jan 1981} \code{Jan 1982} \code{Jan 1983} \code{Jan 1984} \code{Jan 1985} \code{Jan 1986} \code{Jan 1987} \code{Jan 1988} \code{Jan 1989} \code{Jan 1990} \code{Jan 1991} \code{Jan 1992} \code{Jan 1993} \code{Jul 1959} \code{Jul 1960} \code{Jul 1961} \code{Jul 1962} \code{Jul 1963} \code{Jul 1964} \code{Jul 1965} \code{Jul 1966} \code{Jul 1967} \code{Jul 1968} \code{Jul 1969} \code{Jul 1970} \code{Jul 1971} \code{Jul 1972} \code{Jul 1973} \code{Jul 1974} \code{Jul 1975} \code{Jul 1976} \code{Jul 1977} \code{Jul 1978} \code{Jul 1979} \code{Jul 1980} \code{Jul 1981} \code{Jul 1982} \code{Jul 1983} \code{Jul 1984} \code{Jul 1985} \code{Jul 1986} \code{Jul 1987} \code{Jul 1988} \code{Jul 1989} \code{Jul 1990} \code{Jul 1991} \code{Jul 1992} \code{Jul 1993} \code{Jun 1959} \code{Jun 1960} \code{Jun 1961} \code{Jun 1962} \code{Jun 1963} \code{Jun 1964} \code{Jun 1965} \code{Jun 1966} \code{Jun 1967} \code{Jun 1968} \code{Jun 1969} \code{Jun 1970} \code{Jun 1971} \code{Jun 1972} \code{Jun 1973} \code{Jun 1974} \code{Jun 1975} \code{Jun 1976} \code{Jun 1977} \code{Jun 1978} \code{Jun 1979} \code{Jun 1980} \code{Jun 1981} \code{Jun 1982} \code{Jun 1983} \code{Jun 1984} \code{Jun 1985} \code{Jun 1986} \code{Jun 1987} \code{Jun 1988} \code{Jun 1989} \code{Jun 1990} \code{Jun 1991} \code{Jun 1992} \code{Jun 1993} \code{Mar 1959} \code{Mar 1960} \code{Mar 1961} \code{Mar 1962} \code{Mar 1963} \code{Mar 1964} \code{Mar 1965} \code{Mar 1966} \code{Mar 1967} \code{Mar 1968} \code{Mar 1969} \code{Mar 1970} \code{Mar 1971} \code{Mar 1972} \code{Mar 1973} \code{Mar 1974} \code{Mar 1975} \code{Mar 1976} \code{Mar 1977} \code{Mar 1978} \code{Mar 1979} \code{Mar 1980} \code{Mar 1981} \code{Mar 1982} \code{Mar 1983} \code{Mar 1984} \code{Mar 1985} \code{Mar 1986} \code{Mar 1987} \code{Mar 1988} \code{Mar 1989} \code{Mar 1990} \code{Mar 1991} \code{Mar 1992} \code{Mar 1993} \code{May 1959} \code{May 1960} \code{May 1961} \code{May 1962} \code{May 1963} \code{May 1964} \code{May 1965} \code{May 1966} \code{May 1967} \code{May 1968} \code{May 1969} \code{May 1970} \code{May 1971} \code{May 1972} \code{May 1973} \code{May 1974} \code{May 1975} \code{May 1976} \code{May 1977} \code{May 1978} \code{May 1979} \code{May 1980} \code{May 1981} \code{May 1982} \code{May 1983} \code{May 1984} \code{May 1985} \code{May 1986} \code{May 1987} \code{May 1988} \code{May 1989} \code{May 1990} \code{May 1991} \code{May 1992} \code{May 1993} \code{Nov 1959} \code{Nov 1960} \code{Nov 1961} \code{Nov 1962} \code{Nov 1963} \code{Nov 1964} \code{Nov 1965} \code{Nov 1966} \code{Nov 1967} \code{Nov 1968} \code{Nov 1969} \code{Nov 1970} \code{Nov 1971} \code{Nov 1972} \code{Nov 1973} \code{Nov 1974} \code{Nov 1975} \code{Nov 1976} \code{Nov 1977} \code{Nov 1978} \code{Nov 1979} \code{Nov 1980} \code{Nov 1981} \code{Nov 1982} \code{Nov 1983} \code{Nov 1984} \code{Nov 1985} \code{Nov 1986} \code{Nov 1987} \code{Nov 1988} \code{Nov 1989} \code{Nov 1990} \code{Nov 1991} \code{Nov 1992} \code{Nov 1993} \code{Oct 1959} \code{Oct 1960} \code{Oct 1961} \code{Oct 1962} \code{Oct 1963} \code{Oct 1964} \code{Oct 1965} \code{Oct 1966} \code{Oct 1967} \code{Oct 1968} \code{Oct 1969} \code{Oct 1970} \code{Oct 1971} \code{Oct 1972} \code{Oct 1973} \code{Oct 1974} \code{Oct 1975} \code{Oct 1976} \code{Oct 1977} \code{Oct 1978} \code{Oct 1979} \code{Oct 1980} \code{Oct 1981} \code{Oct 1982} \code{Oct 1983} \code{Oct 1984} \code{Oct 1985} \code{Oct 1986} \code{Oct 1987} \code{Oct 1988} \code{Oct 1989} \code{Oct 1990} \code{Oct 1991} \code{Oct 1992} \code{Oct 1993} \code{Sep 1959} \code{Sep 1960} \code{Sep 1961} \code{Sep 1962} \code{Sep 1963} \code{Sep 1964} \code{Sep 1965} \code{Sep 1966} \code{Sep 1967} \code{Sep 1968} \code{Sep 1969} \code{Sep 1970} \code{Sep 1971} \code{Sep 1972} \code{Sep 1973} \code{Sep 1974} \code{Sep 1975} \code{Sep 1976} \code{Sep 1977} \code{Sep 1978} \code{Sep 1979} \code{Sep 1980} \code{Sep 1981} \code{Sep 1982} \code{Sep 1983} \code{Sep 1984} \code{Sep 1985} \code{Sep 1986} \code{Sep 1987} \code{Sep 1988} \code{Sep 1989} \code{Sep 1990} \code{Sep 1991} \code{Sep 1992} \code{Sep 1993}}
+    \item{\code{CONS}}{a numeric vector}
+    \item{\code{R1}}{a numeric vector}
+    \item{\code{R2}}{a numeric vector}
+    \item{\code{R3}}{a numeric vector}
+    \item{\code{R4}}{a numeric vector}
+    \item{\code{R5}}{a numeric vector}
+    \item{\code{R6}}{a numeric vector}
+    \item{\code{R7}}{a numeric vector}
+    \item{\code{R8}}{a numeric vector}
+    \item{\code{R9}}{a numeric vector}
+    \item{\code{R10}}{a numeric vector}
+    \item{\code{RF}}{a numeric vector}
+  }
+}
+\source{
+S+FinMetrics pricing.ts
+}
+\references{
+Verbeek (2000). The data are taken from Manro Verbeek's web page at http://www.econ.kuleuven.ac.be/GME
+}
+\examples{
+data(pricing.ts)
+## maybe str(pricing.ts) ; plot(pricing.ts) ...
+}
+\keyword{datasets}
