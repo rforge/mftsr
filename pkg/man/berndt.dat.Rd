@@ -2,10 +2,10 @@
 \alias{berndt.dat}
 \docType{data}
 \title{
-monthly returns data on 16 assets over the five year period January 1983 through December 1987
+monthly returns data on 16 assets and risk free rates over the five year period January 1983 through December 1987
 }
 \description{
-monthly returns data on 16 assets over the five year period January 1983 through December 1987
+monthly returns data on 16 assets and risk free rates over the five year period January 1983 through December 1987
 }
 \usage{data(berndt.dat)}
 \format{
