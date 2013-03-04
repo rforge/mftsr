@@ -7,7 +7,7 @@
 U.S. zero coupon rates and forward rates for January 1990
 }
 \description{
-U.S. zero coupon rates and forward rates, respectively, computed by McCulloch and Kwon (1993). Both mk.zero2 and mk.fwd2 are dataframe objects with 56 columns, first column is the position, the rest each column representing the rate with the corresponding maturity in the 55 × 1 vector mk.maturity.For example, the first element of the vector mk.maturity is 0.083, so the first columns of mk.zero2 and mk.fwd2 correspond to the rates with maturity of one month.
+U.S. zero coupon rates and forward rates, respectively, computed by McCulloch and Kwon (1993). Both mk.zero2 and mk.fwd2 are dataframe objects with 56 columns, first column is the position, the rest each column representing the rate with the corresponding maturity in the 55 X 1 vector mk.maturity. For example, the first element of the vector mk.maturity is 0.083, so the first columns of mk.zero2 and mk.fwd2 correspond to the rates with maturity of one month.
 }
 \usage{data(mk.zero2)}
 \format{
@@ -73,7 +73,7 @@ U.S. zero coupon rates and forward rates, respectively, computed by McCulloch an
 }
 
 \source{
-S+ FinMetrics "mk.maturity", "mk.zero2" and "mk.fwd2"
+S+ FinMetrics mk.maturity, mk.zero2 and mk.fwd2
 }
 \references{
 McCulloch and Kwon (1993).
