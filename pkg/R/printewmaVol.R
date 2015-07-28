@@ -1,5 +1,22 @@
-# print.ewmaVol
-#
+#' @title print.ewmavol()
+#' 
+#' @author Eric Zivot
+#' 
+#' @description
+#' print.ewmavol()
+#' 
+#' @param object object
+#' @param ... additional arguments passed to \samp{print()}
+#' 
+#' @return
+#' invisible(object)
+#' 
+#' @examples
+#' \dontrun{
+#' print.ewmavol(r)
+#' }
+#' 
+#' @export print.ewmaVol
 print.ewmaVol <- function(object, ...) {
   cat("EWMA volatility estimation:\n")
   cat("Call:\n")
